@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F42EB04255176F700365279 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F42EB03255176F700365279 /* Settings.swift */; };
+		7625796725423FD600508A71 /* Files in Frameworks */ = {isa = PBXBuildFile; productRef = 7625796625423FD600508A71 /* Files */; };
+		7625796B25423FDC00508A71 /* Files in Frameworks */ = {isa = PBXBuildFile; productRef = 7625796A25423FDC00508A71 /* Files */; };
+		76315570254C984900646CE9 /* ExtraViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7631556F254C984900646CE9 /* ExtraViews.swift */; };
+		76315578254CC96C00646CE9 /* PatchUSB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76315577254CC96C00646CE9 /* PatchUSB.swift */; };
+		7631558F254DDB6C00646CE9 /* AboutMyMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7631558E254DDB6C00646CE9 /* AboutMyMac.swift */; };
+		76671F342522B3090004E0C2 /* InstallPackageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76671F332522B3090004E0C2 /* InstallPackageView.swift */; };
+		767167512550AE42000FAE80 /* ShellOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767167502550AE42000FAE80 /* ShellOut.swift */; };
+		767167522550AE42000FAE80 /* ShellOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767167502550AE42000FAE80 /* ShellOut.swift */; };
+		76747BD92523A66F004596CC /* InstallAssistants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76747BD82523A66F004596CC /* InstallAssistants.swift */; };
+		76772CEA25410B40003FE2A2 /* InstallerChooser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76772CE925410B40003FE2A2 /* InstallerChooser.swift */; };
+		7692E066251BFF9300C5FB9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7692E065251BFF9300C5FB9A /* AppDelegate.swift */; };
+		7692E068251BFF9300C5FB9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7692E067251BFF9300C5FB9A /* ContentView.swift */; };
+		7692E06A251BFF9400C5FB9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7692E069251BFF9400C5FB9A /* Assets.xcassets */; };
+		7692E06D251BFF9400C5FB9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7692E06C251BFF9400C5FB9A /* Preview Assets.xcassets */; };
+		7692E070251BFF9400C5FB9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7692E06E251BFF9400C5FB9A /* Main.storyboard */; };
+		7692E080251BFFB300C5FB9A /* PatchedSurApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7692E07F251BFFB300C5FB9A /* PatchedSurApp.swift */; };
+		7692E082251BFFB300C5FB9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7692E081251BFFB300C5FB9A /* ContentView.swift */; };
+		7692E084251BFFB400C5FB9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7692E083251BFFB400C5FB9A /* Assets.xcassets */; };
+		7692E087251BFFB400C5FB9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7692E086251BFFB400C5FB9A /* Preview Assets.xcassets */; };
+		7692E090251C077400C5FB9A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7692E08F251C077400C5FB9A /* MainView.swift */; };
+		7692E0A2251C163200C5FB9A /* VolumeSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7692E0A1251C163200C5FB9A /* VolumeSelector.swift */; };
+		76A626D42524ED78002C57EA /* MacCompatibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A626D32524ED78002C57EA /* MacCompatibility.swift */; };
+		76A626D82525055B002C57EA /* HowItWorks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A626D72525055B002C57EA /* HowItWorks.swift */; };
+		76A626DC25252C5A002C57EA /* CreateInstallMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A626DB25252C5A002C57EA /* CreateInstallMedia.swift */; };
+		76A626E025252C7C002C57EA /* ConfirmVolume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76A626DF25252C7C002C57EA /* ConfirmVolume.swift */; };
+		76B7C335253A8EDA001C7991 /* ReleaseTrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B7C334253A8EDA001C7991 /* ReleaseTrackView.swift */; };
+		76DB62FF251C637000AB8865 /* DownloadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DB62FE251C637000AB8865 /* DownloadView.swift */; };
+		76ECB7FA254BAF3100C928D6 /* KextPatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76ECB7F9254BAF3100C928D6 /* KextPatchView.swift */; };
+		76FBF0DC253B83ED0049A94E /* InstallMethodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FBF0DB253B83ED0049A94E /* InstallMethodView.swift */; };
+		76FBF0E4253CEB2F0049A94E /* FinishedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76FBF0E3253CEB2F0049A94E /* FinishedView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F42EB03255176F700365279 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		7631556F254C984900646CE9 /* ExtraViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraViews.swift; sourceTree = "<group>"; };
+		76315577254CC96C00646CE9 /* PatchUSB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchUSB.swift; sourceTree = "<group>"; };
+		7631558E254DDB6C00646CE9 /* AboutMyMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMyMac.swift; sourceTree = "<group>"; };
+		76671F332522B3090004E0C2 /* InstallPackageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstallPackageView.swift; sourceTree = "<group>"; };
+		767167502550AE42000FAE80 /* ShellOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShellOut.swift; sourceTree = "<group>"; };
+		76747BD82523A66F004596CC /* InstallAssistants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstallAssistants.swift; sourceTree = "<group>"; };
+		76772CE925410B40003FE2A2 /* InstallerChooser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstallerChooser.swift; sourceTree = "<group>"; };
+		7692E062251BFF9300C5FB9A /* Patched Sur - For Catalina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Patched Sur - For Catalina.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7692E065251BFF9300C5FB9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7692E067251BFF9300C5FB9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7692E069251BFF9400C5FB9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7692E06C251BFF9400C5FB9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7692E06F251BFF9400C5FB9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7692E071251BFF9400C5FB9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7692E072251BFF9400C5FB9A /* Patched_Sur___For_Catalina.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Patched_Sur___For_Catalina.entitlements"; sourceTree = "<group>"; };
+		7692E07D251BFFB200C5FB9A /* Patched Sur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Patched Sur.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7692E07F251BFFB300C5FB9A /* PatchedSurApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatchedSurApp.swift; sourceTree = "<group>"; };
+		7692E081251BFFB300C5FB9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7692E083251BFFB400C5FB9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7692E086251BFFB400C5FB9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7692E088251BFFB400C5FB9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7692E089251BFFB400C5FB9A /* Patched_Sur.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Patched_Sur.entitlements; sourceTree = "<group>"; };
+		7692E08F251C077400C5FB9A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		7692E0A1251C163200C5FB9A /* VolumeSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeSelector.swift; sourceTree = "<group>"; };
+		76A626D32524ED78002C57EA /* MacCompatibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacCompatibility.swift; sourceTree = "<group>"; };
+		76A626D72525055B002C57EA /* HowItWorks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowItWorks.swift; sourceTree = "<group>"; };
+		76A626DB25252C5A002C57EA /* CreateInstallMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateInstallMedia.swift; sourceTree = "<group>"; };
+		76A626DF25252C7C002C57EA /* ConfirmVolume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmVolume.swift; sourceTree = "<group>"; };
+		76B7C334253A8EDA001C7991 /* ReleaseTrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseTrackView.swift; sourceTree = "<group>"; };
+		76C1A8F12562DF8300D1A41D /* InstallIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = InstallIcon.icns; sourceTree = "<group>"; };
+		76C1A8F22562DF9400D1A41D /* EFIIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = EFIIcon.icns; sourceTree = "<group>"; };
+		76DB62FE251C637000AB8865 /* DownloadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadView.swift; sourceTree = "<group>"; };
+		76ECB7F9254BAF3100C928D6 /* KextPatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KextPatchView.swift; sourceTree = "<group>"; };
+		76F6EED72552684A001508E8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		76FBF0DB253B83ED0049A94E /* InstallMethodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstallMethodView.swift; sourceTree = "<group>"; };
+		76FBF0E3253CEB2F0049A94E /* FinishedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishedView.swift; sourceTree = "<group>"; };
+		76FEEFAD254F4DBD0079CEFC /* patch-usb.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "patch-usb.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7692E05F251BFF9300C5FB9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7625796725423FD600508A71 /* Files in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7692E07A251BFFB200C5FB9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7625796B25423FDC00508A71 /* Files in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7692E059251BFF9300C5FB9A = {
+			isa = PBXGroup;
+			children = (
+				76F6EED72552684A001508E8 /* README.md */,
+				76FEEFAC254F4DA80079CEFC /* Extra Files */,
+				7692E064251BFF9300C5FB9A /* Patched Sur - For Catalina */,
+				7692E07E251BFFB300C5FB9A /* Patched Sur */,
+				7692E063251BFF9300C5FB9A /* Products */,
+				7692E09A251C09AB00C5FB9A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7692E063251BFF9300C5FB9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7692E062251BFF9300C5FB9A /* Patched Sur - For Catalina.app */,
+				7692E07D251BFFB200C5FB9A /* Patched Sur.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7692E064251BFF9300C5FB9A /* Patched Sur - For Catalina */ = {
+			isa = PBXGroup;
+			children = (
+				7692E065251BFF9300C5FB9A /* AppDelegate.swift */,
+				7692E067251BFF9300C5FB9A /* ContentView.swift */,
+				76772CE925410B40003FE2A2 /* InstallerChooser.swift */,
+				7692E06E251BFF9400C5FB9A /* Main.storyboard */,
+				7692E08F251C077400C5FB9A /* MainView.swift */,
+				76A626D32524ED78002C57EA /* MacCompatibility.swift */,
+				76A626D72525055B002C57EA /* HowItWorks.swift */,
+				76B7C334253A8EDA001C7991 /* ReleaseTrackView.swift */,
+				76FBF0DB253B83ED0049A94E /* InstallMethodView.swift */,
+				76DB62FE251C637000AB8865 /* DownloadView.swift */,
+				76671F332522B3090004E0C2 /* InstallPackageView.swift */,
+				7692E0A1251C163200C5FB9A /* VolumeSelector.swift */,
+				76A626DF25252C7C002C57EA /* ConfirmVolume.swift */,
+				76A626DB25252C5A002C57EA /* CreateInstallMedia.swift */,
+				76315577254CC96C00646CE9 /* PatchUSB.swift */,
+				76FBF0E3253CEB2F0049A94E /* FinishedView.swift */,
+				7692E069251BFF9400C5FB9A /* Assets.xcassets */,
+				767167502550AE42000FAE80 /* ShellOut.swift */,
+				76747BD82523A66F004596CC /* InstallAssistants.swift */,
+				7692E071251BFF9400C5FB9A /* Info.plist */,
+				7692E072251BFF9400C5FB9A /* Patched_Sur___For_Catalina.entitlements */,
+				7692E06B251BFF9400C5FB9A /* Preview Content */,
+			);
+			path = "Patched Sur - For Catalina";
+			sourceTree = "<group>";
+		};
+		7692E06B251BFF9400C5FB9A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7692E06C251BFF9400C5FB9A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7692E07E251BFFB300C5FB9A /* Patched Sur */ = {
+			isa = PBXGroup;
+			children = (
+				7692E07F251BFFB300C5FB9A /* PatchedSurApp.swift */,
+				7692E081251BFFB300C5FB9A /* ContentView.swift */,
+				76ECB7F9254BAF3100C928D6 /* KextPatchView.swift */,
+				7631556F254C984900646CE9 /* ExtraViews.swift */,
+				7631558E254DDB6C00646CE9 /* AboutMyMac.swift */,
+				7692E083251BFFB400C5FB9A /* Assets.xcassets */,
+				7692E088251BFFB400C5FB9A /* Info.plist */,
+				7692E089251BFFB400C5FB9A /* Patched_Sur.entitlements */,
+				7692E085251BFFB400C5FB9A /* Preview Content */,
+				3F42EB03255176F700365279 /* Settings.swift */,
+			);
+			path = "Patched Sur";
+			sourceTree = "<group>";
+		};
+		7692E085251BFFB400C5FB9A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7692E086251BFFB400C5FB9A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7692E09A251C09AB00C5FB9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76FEEFAC254F4DA80079CEFC /* Extra Files */ = {
+			isa = PBXGroup;
+			children = (
+				76C1A8F22562DF9400D1A41D /* EFIIcon.icns */,
+				76C1A8F12562DF8300D1A41D /* InstallIcon.icns */,
+				76FEEFAD254F4DBD0079CEFC /* patch-usb.sh */,
+			);
+			path = "Extra Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7692E061251BFF9300C5FB9A /* Patched Sur - For Catalina */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7692E075251BFF9400C5FB9A /* Build configuration list for PBXNativeTarget "Patched Sur - For Catalina" */;
+			buildPhases = (
+				7692E05E251BFF9300C5FB9A /* Sources */,
+				7692E05F251BFF9300C5FB9A /* Frameworks */,
+				7692E060251BFF9300C5FB9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Patched Sur - For Catalina";
+			packageProductDependencies = (
+				7625796625423FD600508A71 /* Files */,
+			);
+			productName = "Patched Sur - For Catalina";
+			productReference = 7692E062251BFF9300C5FB9A /* Patched Sur - For Catalina.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7692E07C251BFFB200C5FB9A /* Patched Sur */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7692E08A251BFFB400C5FB9A /* Build configuration list for PBXNativeTarget "Patched Sur" */;
+			buildPhases = (
+				7692E079251BFFB200C5FB9A /* Sources */,
+				7692E07A251BFFB200C5FB9A /* Frameworks */,
+				7692E07B251BFFB200C5FB9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Patched Sur";
+			packageProductDependencies = (
+				7625796A25423FDC00508A71 /* Files */,
+			);
+			productName = "Patched Sur";
+			productReference = 7692E07D251BFFB200C5FB9A /* Patched Sur.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7692E05A251BFF9300C5FB9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					7692E061251BFF9300C5FB9A = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					7692E07C251BFFB200C5FB9A = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 7692E05D251BFF9300C5FB9A /* Build configuration list for PBXProject "Patched Sur" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7692E059251BFF9300C5FB9A;
+			packageReferences = (
+				7625796525423FD600508A71 /* XCRemoteSwiftPackageReference "Files" */,
+			);
+			productRefGroup = 7692E063251BFF9300C5FB9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7692E061251BFF9300C5FB9A /* Patched Sur - For Catalina */,
+				7692E07C251BFFB200C5FB9A /* Patched Sur */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7692E060251BFF9300C5FB9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7692E070251BFF9400C5FB9A /* Main.storyboard in Resources */,
+				7692E06D251BFF9400C5FB9A /* Preview Assets.xcassets in Resources */,
+				7692E06A251BFF9400C5FB9A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7692E07B251BFFB200C5FB9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7692E087251BFFB400C5FB9A /* Preview Assets.xcassets in Resources */,
+				7692E084251BFFB400C5FB9A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7692E05E251BFF9300C5FB9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A626E025252C7C002C57EA /* ConfirmVolume.swift in Sources */,
+				767167512550AE42000FAE80 /* ShellOut.swift in Sources */,
+				76DB62FF251C637000AB8865 /* DownloadView.swift in Sources */,
+				76772CEA25410B40003FE2A2 /* InstallerChooser.swift in Sources */,
+				76B7C335253A8EDA001C7991 /* ReleaseTrackView.swift in Sources */,
+				76A626DC25252C5A002C57EA /* CreateInstallMedia.swift in Sources */,
+				7692E068251BFF9300C5FB9A /* ContentView.swift in Sources */,
+				7692E090251C077400C5FB9A /* MainView.swift in Sources */,
+				76FBF0DC253B83ED0049A94E /* InstallMethodView.swift in Sources */,
+				76315578254CC96C00646CE9 /* PatchUSB.swift in Sources */,
+				76A626D42524ED78002C57EA /* MacCompatibility.swift in Sources */,
+				7692E0A2251C163200C5FB9A /* VolumeSelector.swift in Sources */,
+				76671F342522B3090004E0C2 /* InstallPackageView.swift in Sources */,
+				76FBF0E4253CEB2F0049A94E /* FinishedView.swift in Sources */,
+				76747BD92523A66F004596CC /* InstallAssistants.swift in Sources */,
+				76A626D82525055B002C57EA /* HowItWorks.swift in Sources */,
+				7692E066251BFF9300C5FB9A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7692E079251BFFB200C5FB9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7692E082251BFFB300C5FB9A /* ContentView.swift in Sources */,
+				767167522550AE42000FAE80 /* ShellOut.swift in Sources */,
+				76ECB7FA254BAF3100C928D6 /* KextPatchView.swift in Sources */,
+				76315570254C984900646CE9 /* ExtraViews.swift in Sources */,
+				3F42EB04255176F700365279 /* Settings.swift in Sources */,
+				7692E080251BFFB300C5FB9A /* PatchedSurApp.swift in Sources */,
+				7631558F254DDB6C00646CE9 /* AboutMyMac.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7692E06E251BFF9400C5FB9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7692E06F251BFF9400C5FB9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7692E073251BFF9400C5FB9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7692E074251BFF9400C5FB9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7692E076251BFF9400C5FB9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Patched Sur - For Catalina/Patched_Sur___For_Catalina.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 14;
+				DEVELOPMENT_ASSET_PATHS = "\"Patched Sur - For Catalina/Preview Content\"";
+				DEVELOPMENT_TEAM = Z3S9P7U36J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Patched Sur - For Catalina/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 0.0.4;
+				PRODUCT_BUNDLE_IDENTIFIER = "u-bensova.Patched-Sur-Catalina";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7692E077251BFF9400C5FB9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Patched Sur - For Catalina/Patched_Sur___For_Catalina.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 14;
+				DEVELOPMENT_ASSET_PATHS = "\"Patched Sur - For Catalina/Preview Content\"";
+				DEVELOPMENT_TEAM = Z3S9P7U36J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Patched Sur - For Catalina/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MARKETING_VERSION = 0.0.4;
+				PRODUCT_BUNDLE_IDENTIFIER = "u-bensova.Patched-Sur-Catalina";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7692E08B251BFFB400C5FB9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Patched Sur/Patched_Sur.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 14;
+				DEVELOPMENT_ASSET_PATHS = "\"Patched Sur/Preview Content\"";
+				DEVELOPMENT_TEAM = Z3S9P7U36J;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Patched Sur/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 0.0.4;
+				PRODUCT_BUNDLE_IDENTIFIER = "u-bensova.Patched-Sur";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7692E08C251BFFB400C5FB9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Patched Sur/Patched_Sur.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 14;
+				DEVELOPMENT_ASSET_PATHS = "\"Patched Sur/Preview Content\"";
+				DEVELOPMENT_TEAM = Z3S9P7U36J;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Patched Sur/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 0.0.4;
+				PRODUCT_BUNDLE_IDENTIFIER = "u-bensova.Patched-Sur";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7692E05D251BFF9300C5FB9A /* Build configuration list for PBXProject "Patched Sur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7692E073251BFF9400C5FB9A /* Debug */,
+				7692E074251BFF9400C5FB9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7692E075251BFF9400C5FB9A /* Build configuration list for PBXNativeTarget "Patched Sur - For Catalina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7692E076251BFF9400C5FB9A /* Debug */,
+				7692E077251BFF9400C5FB9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7692E08A251BFFB400C5FB9A /* Build configuration list for PBXNativeTarget "Patched Sur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7692E08B251BFFB400C5FB9A /* Debug */,
+				7692E08C251BFFB400C5FB9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7625796525423FD600508A71 /* XCRemoteSwiftPackageReference "Files" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JohnSundell/Files.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7625796625423FD600508A71 /* Files */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7625796525423FD600508A71 /* XCRemoteSwiftPackageReference "Files" */;
+			productName = Files;
+		};
+		7625796A25423FDC00508A71 /* Files */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7625796525423FD600508A71 /* XCRemoteSwiftPackageReference "Files" */;
+			productName = Files;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7692E05A251BFF9300C5FB9A /* Project object */;
+}
