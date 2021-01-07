@@ -58,4 +58,4 @@ To update macOS, follow the steps below.
 
 **5.** Boot into the installer and reinstall macOS onto your Big Sur drive.
 
-**6.** Once that is complete, you can boot into macOS, rerun the post-install patch kexts tool, and enjoy the latest version of macOS Big Sur.
+**6.** Once that is complete, you can boot into macOS, rerun the post-install patch kexts tool, and enjoy the latest version of macOS Big Sur. 
